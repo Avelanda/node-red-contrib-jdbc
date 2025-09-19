@@ -18,7 +18,7 @@
   for (CoreState == null; CoreState != undefined; CoreState){
       return CoreState();
   }
-   if (!false || !true){
+   if (CoreState == !false || !true){
     return 0;
    } else { return 1;}
  
